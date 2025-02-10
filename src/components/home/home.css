@@ -210,3 +210,9 @@
     right: 10%;
     top: 10%;
 }
+
+@media screen and (max-width: 1024px) {
+    .home__social-link {
+        font-size: 1.125rem;
+    }
+}

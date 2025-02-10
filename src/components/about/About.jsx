@@ -1,6 +1,7 @@
 import React from 'react';
 import "./about.css";
-import Resume from "../../assets/Julius-Resume-(Official).pdf"
+import Resume from "../../assets/Julius-Resume-(Official).pdf";
+import ShapesAbout from './ShapesAbout';
 
 
 const About = () => {
@@ -81,8 +82,10 @@ const About = () => {
                     </div>
 
                 </div>
-
             </div>
+
+            <ShapesAbout />
+
         </section>
     )
 }

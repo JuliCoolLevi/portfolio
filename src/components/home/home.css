@@ -1,0 +1,212 @@
+.home {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.intro {
+    max-width: 540px;
+    text-align: center;
+}
+
+.home__img {
+    margin-bottom: 1.5rem;
+    animation: float 4s ease-in-out infinite;
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+.home__img:hover {
+    filter: drop-shadow(0 0 20px hsl(315, 92%, 80%));
+    transform: scale(1.1) rotate(2deg);
+}
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-8px); }
+    100% { transform: translateY(0px); }
+}
+
+.home__name {
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-bold);
+    margin-bottom: 0.5rem;
+}
+
+.home__socials {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+
+}
+
+.home__social-link {
+    color: var(--title-color);
+    font-size: 1.3rem;
+    transition: .3s;
+}
+
+.home__social-link:hover {
+    color: hsl(3, 92%, 80%);
+}
+
+.scroll__down {
+    position: absolute;
+    bottom: 2.5rem;
+    left: 0;
+    width: 100%;
+}
+
+.home__scroll-name {
+    font-size: var(--small-font-size);
+}
+
+.mouse {
+    border: 2px solid #454360;
+    display: block;
+    height: 1.6rem;
+    width: 1.25rem;
+    margin: auto;
+    margin-top: .75rem;
+    border-radius: 1rem;
+    position: relative
+}
+
+@keyframes ani-mouse {
+
+    0% {
+        top: 29%;
+    }
+    
+    15% {
+        top: 50%;
+    }
+
+    50% {
+        top: 50%;
+    }
+
+    100% {
+        top: 29%;
+    }
+
+}
+
+.wheel {
+    background-color: var(--title-color);
+    border-radius: 100%;
+    width: 0.25rem;
+    height: 0.25rem;
+    position: absolute;
+    top: .5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: ani-mouse 2s linear infinite;
+}
+
+.shape {
+    position: absolute;
+    animation: rotateShape 10s infinite;
+}
+
+
+@keyframes rotateShape {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.s1 {
+    animation-delay: 0s;
+    left: 5%;
+    top: 10%;
+}
+
+.s2 {
+    animation-delay: 1s;
+    left: 18%;
+    top: 30%;
+}
+
+.s3 {
+    animation-delay: 2s;
+    left: 5%;
+    bottom: 30%;
+}
+
+.s4 {
+    animation-delay: 3s;
+    left: 2%;
+    bottom: 10%;
+}
+
+.s5 {
+    animation-delay: 4s;
+    left: 44%;
+    top: 10%;
+}
+
+.s6 {
+    animation-delay: 5s;
+    left: 36%;
+    bottom: 10%;
+}
+
+.s7 {
+    animation-delay: 6s;
+    top: 20%;
+    right: 25%;
+}
+
+.s8 {
+    animation-delay: 7s;
+    right: 24%;
+    bottom: 20%;
+}
+
+.s9 {
+    animation-delay: 8s;
+    right: 2%;
+    top: 50%;
+}
+
+.s10 {
+    animation-delay: 9s;
+    top: 45%;
+}
+
+.s11 {
+    animation-delay: 10s;
+    bottom: 10%;
+    right: 2%;
+}
+
+.s12 {
+    animation-delay: 11s;
+    left: 30%;
+    top: 65%;
+}
+
+.s13 {
+    animation-delay: 12s;
+    right: 20%;
+    top: 50%;
+}
+
+.s14 {
+    animation-delay: 13s;
+    right: 5%;
+    top: 30%;
+}
+
+.s15 {
+    animation-delay: 14s;
+    right: 10%;
+    top: 10%;
+}

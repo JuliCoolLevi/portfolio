@@ -4,6 +4,8 @@
     top: 0;
     background: var(--body-color);
     border-right: 1px solid rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180deg, #bcc947 0%, #009ffd 100%);
+    /* background: linear-gradient(180deg, #12C2E9 0%, #F64F59 100%); */
     padding: 2.5rem;
     width: 110px;
 
@@ -44,7 +46,7 @@
 }
 
 .copyright {
-    color: hsl(245, 15%, 65%);
+    color: hsl(73, 4%, 40%);
     font-size: var(--small-font-size);
     transform: rotate(-180deg);
     writing-mode: vertical-rl;

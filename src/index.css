@@ -6,6 +6,14 @@
 /* Variables CSS */
 :root {
 
+    /* Lo-fi colours */
+    --lofi-primary: hsl(260, 60%, 85%);
+    --lofi-secondary: hsl(315, 92%, 80%);
+    --lofi-accent: hsl(180, 100%, 75%);
+    --lofi-text: hsl(244, 24%, 35%);
+    --lofi-background: hsl(258, 30%, 95%);
+    --neon-glow: 0 0 10px var(--lofi-secondary), 0 0 20px var(--lofi-accent);
+
     /* Colors */
     /* Color Mode HSL (hue, saturation, lightness) */
     --first-color: hsl(353, 100%, 65%);

@@ -5,7 +5,86 @@
     align-items: center;
     justify-content: center;
 
+
 }
+
+.home__education {
+    position: relative;
+    display: inline-block;
+    color: var(--lofi-text);
+    font-style: italic;
+}
+
+.home__education::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background: linear-gradient(90deg, transparent, var(--lofi-secondary), transparent);
+}
+
+.home__social-link {
+    color: var(--lofi-text);
+    font-size: 1.3rem;
+    transition: .3s;
+    position: relative;
+}
+  
+.home__social-link:hover {
+    color: var(--lofi-secondary);
+    transform: translateY(-5px);
+    text-shadow: var(--neon-glow);
+}
+  
+.home__social-link::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 50%;
+    background: var(--lofi-secondary);
+    transition: .3s;
+}
+  
+.home__social-link:hover::before {
+    width: 100%;
+    left: 0;
+}
+
+/* .retro-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.03) 0px,
+    rgba(0, 0, 0, 0.03) 1px,
+    transparent 1px,
+    transparent 2px
+  );
+  pointer-events: none;
+  z-index: 1;
+}
+
+.vhs-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    rgba(255, 0, 0, 0.03),
+    rgba(0, 255, 255, 0.03)
+  );
+  mix-blend-mode: screen;
+  pointer-events: none;
+  z-index: 2;
+} */
 
 .intro {
     max-width: 540px;

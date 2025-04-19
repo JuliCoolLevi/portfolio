@@ -8,8 +8,10 @@ import Shapes from './Shapes';
 const Home = () => {
     return (
         <section className='home container' id='home'>
-            <div className='intro'>
+        
 
+            <div className='intro'>
+        
                 <img src={Myself} alt='' className='home__img' />
                 <h1 className='home__name'>Julius Nillo</h1>
                 <span className='home__education'>

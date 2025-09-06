@@ -26,7 +26,7 @@ const About = () => {
                     
                         
                         <span className='skills__number'>
-                            My Academic Progress: 76%
+                            My Academic Progress: 88%
                         </span>
                         
                         <div className='skills__bar'>

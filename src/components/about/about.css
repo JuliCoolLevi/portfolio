@@ -65,7 +65,7 @@
 
 .skills__percentage, .academic {
     display: block;
-    width: 76%;
+    width: 88%;
     background-color: rgb(64, 224, 208);
     animation: flicker 1.5s infinite alternate;
 }
